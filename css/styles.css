@@ -1,0 +1,58 @@
+*{
+   
+
+ }
+
+body{    
+   background-image: url("img/a1.jpg");
+    background-size: cover;
+    
+    margin: 0px;
+
+   
+
+}
+
+.tr{
+    
+color:blue ;
+    text-align: center;
+    font-size: 70px;
+   font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    animation-name:chongtext ;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes chongtext{
+    
+    10%{ color: rgb(15, 2, 2);}
+    25%{color: darkred;}
+    50%{color: rgb(233, 236, 13);}
+    75%{color: rgba(20, 240, 86, 0.589);}
+    100%{ color: #0b87f3;}
+
+}
+
+img{ 
+    
+    border-radius: 150px;
+  
+  left: 43%;
+  right: 50%;
+position: block;
+width: 150px;
+height: 150px;
+opacity: 0.2;
+
+top: 50px;
+}
+img:hover{
+    opacity:1 ;
+}
+
+
+
+
